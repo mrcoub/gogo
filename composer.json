@@ -5,7 +5,9 @@
     "slim/php-view": "^2.0",
     "illuminate/database": "~5.1",
     "monolog/monolog": "^1.17",
-    "robmorgan/phinx": "^0.10"
+    "robmorgan/phinx": "^0.10",
+    "vlucas/phpdotenv": "^2.1",
+    "vlucas/valitron": "^1.2"
   },
   "autoload": {
     "psr-4": {

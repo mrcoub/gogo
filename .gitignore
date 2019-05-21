@@ -1,9 +1,7 @@
 /.idea
-/vendor/
-/logs/*
+vendor/
+logs/*
 
-/composer.lock
+composer.phar
 
-/app/settings.php
-
-*.yml
+.env
