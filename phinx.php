@@ -5,13 +5,14 @@ $dotenv->load();
 
 return [
     'paths' => [
-        'migrations' => 'migrations'
+        'migrations' => 'migrations',
+        'seeds' => 'seeds'
     ],
-    'migration_base_class' => '\App\Migration\Migration',
+    'migration_base_class' => '\App\Migrations\Migration',
     'environments' => [
         'default_migration_table' => 'phinxlog',
-        'default_database' => 'dev',
-        'dev' => [
+        'default_database' => 'mysql',
+        'mysql' => [
             'adapter' => getenv('DB_DRIVER'),
             'host' => getenv('DB_HOST'),
             'name' => getenv('DB_NAME'),
